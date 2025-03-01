@@ -50,7 +50,10 @@ func main() {
 	fmt.Println("O tamanho da string é", len(s2))
 
 	// não existe char no Go
-	char := 'b'
-	fmt.Println("O tipo de char é", reflect.TypeOf(char)) //int32
-	fmt.Println(char)
+	charNumero := 'b'
+	fmt.Println("O tipo de char é", reflect.TypeOf(charNumero)) //int32
+	fmt.Println(charNumero)
+
+	charString := "b"
+	fmt.Println(charString)
 }
